@@ -1,5 +1,9 @@
 name: "workflow commands"
 
+on:
+    push:
+        branches:
+            main
 jobs:
     my_job:
         runs_on: ubuntu_latest
