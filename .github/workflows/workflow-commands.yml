@@ -5,8 +5,8 @@ on:
         branches:
             main
 jobs:
-    my_job:
-        runs_on: ubuntu-latest
+    my-job:
+        runs-on: ubuntu-latest
         steps:
             - name: "groups logging"
               run: |
